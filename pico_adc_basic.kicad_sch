@@ -3458,6 +3458,31 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 90.17 154.94 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6145848f-d87b-428f-abbb-b74dce53aa6b)
+    (property "Reference" "#PWR022" (at 90.17 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 90.17 151.13 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 90.17 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 90.17 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cc6a0e3d-e984-4b5d-8a65-a4b892c5c8e2))
+    (instances
+      (project "pico_adc_basic"
+        (path "/28ad3acb-cd0f-475d-9ced-e9dd8b21bbfe"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 124.46 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 621a27a6-f92a-4d0e-987f-d2ad033ba671)
@@ -3836,31 +3861,6 @@
       (project "pico_adc_basic"
         (path "/28ad3acb-cd0f-475d-9ced-e9dd8b21bbfe"
           (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 90.17 154.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 967bc799-034e-40df-893a-53df37d96301)
-    (property "Reference" "#PWR022" (at 90.17 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 90.17 151.13 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 90.17 154.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 90.17 154.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6eb355ba-a806-46ed-a057-cd2be36924a8))
-    (instances
-      (project "pico_adc_basic"
-        (path "/28ad3acb-cd0f-475d-9ced-e9dd8b21bbfe"
-          (reference "#PWR022") (unit 1)
         )
       )
     )
